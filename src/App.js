@@ -20,7 +20,7 @@ function App() {
     const data = JSON.parse(event.target.value);
     setStandardCoin(data.name);
     setStandardCoinPrice(data.quotes.USD.price);
-    console.log(standardcoin, standardcoinprice);
+    console.log("hi!");
   };
 
   const onChangeMoney = (event) => {
